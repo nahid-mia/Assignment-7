@@ -1,5 +1,5 @@
 "use client";
-import { useContext, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { DataContext } from "../context/dataContext";
 import TimeLinePage from "../components/TimeLinePage";
 
@@ -8,7 +8,23 @@ const TimeLine = () => {
 
     const [timeLineState, setTimeLineState] = useState('');
     const { callArray, textArray, videoArray, allArray } = useContext(DataContext);
-    const [open, setOpen] = useState(false)
+    const [open, setOpen] = useState(false);
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setLoading(false);
+        }, 800);
+
+        return () => clearTimeout(timer);
+    }, []);
+    if (loading) {
+        return (
+            <div className="flex items-center justify-center min-h-screen">
+                <span className="loading loading-spinner loading-md"></span>
+            </div>
+        );
+    }
 
 
     const showArray = () => {

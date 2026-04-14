@@ -2,12 +2,29 @@
 import friends from '../../public/friends.json'
 import { FaPlus } from "react-icons/fa";
 import Friend from './components/Friend';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 
 export default function Home() {
 
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 800);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   const onTrack = friends.filter(friend => friend.status === "on-track");
+  if (loading) {
+    return (
+      <div className="flex items-center justify-center min-h-screen">
+        <span className="loading loading-spinner loading-md"></span>
+      </div>
+    );
+  }
 
   return (
     <div className='bg-[#f8fafc]'>
