@@ -22,8 +22,8 @@ const FriendActions = ({ expectedFriend }) => {
 
     return (
         <div>
-            <div className='w-full md:w-8/12 mx-auto py-10 flex gap-5 items-stretch'>
-                <div className='w-2/4 flex flex-col space-y-4'>
+            <div className='w-full md:w-8/12 mx-auto py-10 flex flex-col sm:flex-row gap-5 items-stretch'>
+                <div className='w-full sm:w-2/4 flex flex-col space-y-4'>
                     <div className='flex flex-col space-y-4 flex-1'>
                         <div className="bg-white py-5 rounded-md shadow-md px-5 flex-1">
                             <div className="flex flex-col gap-2 items-center">

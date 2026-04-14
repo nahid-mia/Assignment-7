@@ -44,7 +44,7 @@ const TimeLine = () => {
 
     return (
         <div className="bg-[#f8fafc]">
-            <div className="w-9/12 mx-auto mt-5 p-10 space-y-5">
+            <div className="w-10/12 md:w-9/12 mx-auto mt-5 p-10 space-y-5">
                 <h2 className="text-3xl font-bold">TimeLine</h2>
                 <details className="dropdown" open={open}>
                     <summary onClick={() => setOpen(true)} className="btn m-1 text-gray-500">Filter TimeLine</summary>
