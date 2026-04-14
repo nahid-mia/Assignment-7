@@ -9,7 +9,7 @@ const Friend = ({ friend }) => {
 
     if (status === "overdue") statusColor = "bg-red-500";
     else if (status === "on-track") statusColor = "bg-green-900";
-    else if (status === "due-soon") statusColor = "bg-orange-500";
+    else if (status === "almost due") statusColor = "bg-orange-500";
 
     return (
         <div className="bg-white py-5 rounded-md shadow-md">
