@@ -18,9 +18,9 @@ const Friend = ({ friend }) => {
                 <p className="font-bold text-xl">{name}</p>
                 <p className="text-gray-500 text-[12px]">{days_since_contact}d ago</p>
                 <div className="flex gap-1">
-                    {tags.map(tag => <div className="bg-green-200 p-1 px-2 rounded-2xl text-[14px]" key={tag}>{tag}</div>)}
+                    {tags.map(tag => <div className="bg-green-200 p-1 px-2 rounded-2xl text-[13px]" key={tag}>{tag}</div>)}
                 </div>
-                <p className={`p-1 px-2 rounded-2xl text-white ${statusColor}`}>{status}</p>
+                <p className={`p-1 px-2 rounded-2xl text-white text-[13px] ${statusColor}`}>{status}</p>
             </div></Link>
 
         </div>

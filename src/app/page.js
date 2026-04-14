@@ -35,7 +35,7 @@ export default function Home() {
           </div>
           <div className='bg-white rounded-md shadow-sm flex flex-col items-center py-5'>
             <p className='font-semibold text-xl'>12</p>
-            <p className='text-gray-500'>Total-Interactions</p>
+            <p className='text-gray-500'>Interactions This Month</p>
           </div>
         </div>
         <hr className='text-gray-300' />
