@@ -1,4 +1,6 @@
 'use client';
+import Image from "next/image";
+import navLogo from "../../../public/logo.png"
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { RiHome2Line } from "react-icons/ri";
@@ -13,7 +15,7 @@ const Navbar = () => {
         <div className="w-11/12 mx-auto">
             <div className="navbar">
                 <div className="flex-1">
-                    <a className="btn btn-ghost text-xl">daisyUI</a>
+                    <Image src={navLogo} width={150} height="auto" alt="Logo-Icon"></Image>
                 </div>
                 <div className="flex-none">
                     <ul className="menu menu-horizontal gap-2 items-center">

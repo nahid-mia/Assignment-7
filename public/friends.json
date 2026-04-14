@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "picture": "https://randomuser.me/api/portraits/men/1.jpg",
+        "email": "john@example.com",
+        "days_since_contact": 12,
+        "status": "overdue",
+        "tags": [
+            "COLLEGE",
+            "CLOSE FRIEND"
+        ],
+        "bio": "Met in university. Love hiking together.",
+        "goal": 14,
+        "next_due_date": "2025-07-20"
+    },
+    {
+        "id": 2,
+        "name": "Sarah Ahmed",
+        "picture": "https://randomuser.me/api/portraits/women/2.jpg",
+        "email": "sarah.ahmed@example.com",
+        "days_since_contact": 5,
+        "status": "on-track",
+        "tags": [
+            "WORK",
+            "TEAMMATE"
+        ],
+        "bio": "Works in the same department. Collaborate on projects.",
+        "goal": 10,
+        "next_due_date": "2025-07-25"
+    },
+    {
+        "id": 3,
+        "name": "Michael Tan",
+        "picture": "https://randomuser.me/api/portraits/men/3.jpg",
+        "email": "michael.tan@example.com",
+        "days_since_contact": 20,
+        "status": "overdue",
+        "tags": [
+            "GYM",
+            "FITNESS"
+        ],
+        "bio": "Workout partner from local gym.",
+        "goal": 7,
+        "next_due_date": "2025-07-18"
+    },
+    {
+        "id": 4,
+        "name": "Aisha Khan",
+        "picture": "https://randomuser.me/api/portraits/women/4.jpg",
+        "email": "aisha.khan@example.com",
+        "days_since_contact": 2,
+        "status": "on-track",
+        "tags": [
+            "FAMILY",
+            "COUSIN"
+        ],
+        "bio": "Cousin living in another city.",
+        "goal": 14,
+        "next_due_date": "2025-08-01"
+    },
+    {
+        "id": 5,
+        "name": "David Wilson",
+        "picture": "https://randomuser.me/api/portraits/men/5.jpg",
+        "email": "david.wilson@example.com",
+        "days_since_contact": 9,
+        "status": "due-soon",
+        "tags": [
+            "BUSINESS",
+            "CLIENT"
+        ],
+        "bio": "Important client from previous company.",
+        "goal": 10,
+        "next_due_date": "2025-07-22"
+    },
+    {
+        "id": 6,
+        "name": "Nusrat Jahan",
+        "picture": "https://randomuser.me/api/portraits/women/6.jpg",
+        "email": "nusrat.jahan@example.com",
+        "days_since_contact": 15,
+        "status": "overdue",
+        "tags": [
+            "SCHOOL",
+            "BEST FRIEND"
+        ],
+        "bio": "Best friend from school days.",
+        "goal": 14,
+        "next_due_date": "2025-07-19"
+    },
+    {
+        "id": 7,
+        "name": "Carlos Rivera",
+        "picture": "https://randomuser.me/api/portraits/men/7.jpg",
+        "email": "carlos.rivera@example.com",
+        "days_since_contact": 4,
+        "status": "on-track",
+        "tags": [
+            "ONLINE",
+            "GAMING"
+        ],
+        "bio": "Met through online gaming community.",
+        "goal": 7,
+        "next_due_date": "2025-07-26"
+    },
+    {
+        "id": 8,
+        "name": "Emily Chen",
+        "picture": "https://randomuser.me/api/portraits/women/8.jpg",
+        "email": "emily.chen@example.com",
+        "days_since_contact": 11,
+        "status": "due-soon",
+        "tags": [
+            "UNIVERSITY",
+            "PROJECT PARTNER"
+        ],
+        "bio": "Worked together on university research project.",
+        "goal": 10,
+        "next_due_date": "2025-07-23"
+    }
+]
