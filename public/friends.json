@@ -65,7 +65,7 @@
         "picture": "https://randomuser.me/api/portraits/men/5.jpg",
         "email": "david.wilson@example.com",
         "days_since_contact": 9,
-        "status": "due-soon",
+        "status": "almost due",
         "tags": [
             "BUSINESS",
             "CLIENT"
@@ -110,7 +110,7 @@
         "picture": "https://randomuser.me/api/portraits/women/8.jpg",
         "email": "emily.chen@example.com",
         "days_since_contact": 11,
-        "status": "due-soon",
+        "status": "almost due",
         "tags": [
             "UNIVERSITY",
             "PROJECT PARTNER"
