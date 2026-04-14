@@ -1,5 +1,6 @@
 "use client";
 
+import { toast } from 'react-toastify';
 import callImg from '../../../public/call.png';
 import textImg from '../../../public/text.png';
 import videoImg from '../../../public/video.png';
@@ -17,7 +18,7 @@ const FriendsContext = ({ children }) => {
 
     const handleCallButton = (expectedFriend) => {
         const newData = {
-            type: "call",
+            type: "Call",
             name: `${expectedFriend.name}`,
             picture: callImg,
             date: new Date().toLocaleString("en-US", {
@@ -29,6 +30,7 @@ const FriendsContext = ({ children }) => {
                 hour12: true,
             })
         }
+        toast(`${newData.type} with ${expectedFriend.name}`);
         setCallArray([...callArray, newData]);
         setAllArray([...allArray, newData]);
     }
@@ -47,6 +49,7 @@ const FriendsContext = ({ children }) => {
                 hour12: true,
             })
         }
+        toast(`${newData.type} with ${expectedFriend.name}`);
         setTextArray([...textArray, newData]);
         setAllArray([...allArray, newData]);
     }
@@ -65,6 +68,7 @@ const FriendsContext = ({ children }) => {
                 hour12: true,
             })
         }
+        toast(`${newData.type} with ${expectedFriend.name}`);
         setVideoArray([...videoArray, newData]);
         setAllArray([...allArray, newData]);
     }

@@ -19,13 +19,13 @@ const Footer = () => {
                     <li><Image src={twitterImg} width={30} height="auto" alt='twitter-Icon'></Image></li>
                 </ul>
                 <hr className='mt-7 w-full' />
-                <div className='flex justify-between items-center w-full'>
+                <div className='flex flex-col md:flex-row justify-between items-center w-full'>
                     <div className='flex gap-1 items-center'>
                         <span><FaRegCopyright /></span>
                         <p>2026 KeenKeeper. All rights reserved.</p>
                     </div>
                     <div>
-                        <ul className='flex gap-1 md:gap-4 items-center'>
+                        <ul className='flex gap-4 items-center'>
                             <li><a href="">Privacy Policy</a></li>
                             <li><a href="">Terms of Service</a></li>
                             <li><a href="">Cookies</a></li>
